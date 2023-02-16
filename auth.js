@@ -1,5 +1,6 @@
 let express = require('express');
 let app = express();
+let mydoe =test()
 let mongo = require('mongodb');
 let MongoClient = mongo.MongoClient;
 let dotenv = require('dotenv');

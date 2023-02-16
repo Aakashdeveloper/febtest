@@ -118,7 +118,7 @@ app.get('/details/:id',(req,res) => {
     })
 })
 
-//menu of restaurants
+//menu of restaurants code
 app.get('/menu/:id',(req,res) => {
     let restId = Number(req.params.id);
     db.collection('menu').find({restaurant_id:restId}).toArray((err,data) => {
