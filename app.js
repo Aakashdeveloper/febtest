@@ -1,7 +1,7 @@
 let express = require('express');
 let app = express();
 let mongo = require('mongodb');
-let MongoClient = mongo.MongoClient;
+let MongoClient = "mongodb+srv://local:test1234@cluster0.f8vmc.mongodb.net/augintern?retryWrites=true&w=majority";
 let dotenv = require('dotenv');
 dotenv.config();
 let mongoUrl = process.env.MongoUrl;
